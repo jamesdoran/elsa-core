@@ -65,16 +65,26 @@ wf-activity-picker {
     }
 }
 
+.workflow-designer-wrapper {
+    height: 50vh;
+
+    .workflow-canvas {
+        .activity {
+            p {
+                font-size: 1em;
+            }
+        }
+
+        .connection-label {
+            font-size: 0.8em;
+        }
+    }
+}
+
 #workflowViewer {
     .workflow-designer-wrapper {
-        height: 50vh;
 
         .workflow-canvas {
-            .activity {
-                p {
-                    font-size: 1em;
-                }
-            }
 
             .activity-executed, .activity-faulted, .activity-blocking {
 
@@ -82,10 +92,6 @@ wf-activity-picker {
                     background-color: #172b4d;
                     border-color: #172b4d;
                 }
-            }
-
-            .connection-label {
-                font-size: 0.8em;
             }
         }
     }

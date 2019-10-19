@@ -36,15 +36,16 @@ wf-activity-picker .card-title i {
   font-size: 1.5em;
   vertical-align: top; }
 
-#workflowViewer .workflow-designer-wrapper {
+.workflow-designer-wrapper {
   height: 50vh; }
-  #workflowViewer .workflow-designer-wrapper .workflow-canvas .activity p {
+  .workflow-designer-wrapper .workflow-canvas .activity p {
     font-size: 1em; }
-  #workflowViewer .workflow-designer-wrapper .workflow-canvas .activity-executed.highlight, #workflowViewer .workflow-designer-wrapper .workflow-canvas .activity-executed:hover, #workflowViewer .workflow-designer-wrapper .workflow-canvas .activity-faulted.highlight, #workflowViewer .workflow-designer-wrapper .workflow-canvas .activity-faulted:hover, #workflowViewer .workflow-designer-wrapper .workflow-canvas .activity-blocking.highlight, #workflowViewer .workflow-designer-wrapper .workflow-canvas .activity-blocking:hover {
-    background-color: #172b4d;
-    border-color: #172b4d; }
-  #workflowViewer .workflow-designer-wrapper .workflow-canvas .connection-label {
+  .workflow-designer-wrapper .workflow-canvas .connection-label {
     font-size: 0.8em; }
+
+#workflowViewer .workflow-designer-wrapper .workflow-canvas .activity-executed.highlight, #workflowViewer .workflow-designer-wrapper .workflow-canvas .activity-executed:hover, #workflowViewer .workflow-designer-wrapper .workflow-canvas .activity-faulted.highlight, #workflowViewer .workflow-designer-wrapper .workflow-canvas .activity-faulted:hover, #workflowViewer .workflow-designer-wrapper .workflow-canvas .activity-blocking.highlight, #workflowViewer .workflow-designer-wrapper .workflow-canvas .activity-blocking:hover {
+  background-color: #172b4d;
+  border-color: #172b4d; }
 
 #workflowViewer #executionLog tbody tr {
   cursor: pointer; }
